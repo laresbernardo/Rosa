@@ -1,0 +1,134 @@
+PROPRIETARY END-USER LICENSE AGREEMENT (EULA)
+
+This EULA is a legally binding agreement between you, the Licensee (either an
+individual or a single entity), and , the Licensor.
+
+IMPORTANT: BY CLICKING "I ACCEPT" OR BY DOWNLOADING, INSTALLING, OR USING THE
+SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT,
+AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS. IF YOU DO NOT AGREE TO THE
+TERMS OF THIS AGREEMENT, DO NOT INSTALL OR USE THE SOFTWARE.
+
+If you are entering this agreement on behalf of a company or organization,
+you warrant that you have the authority to legally bind that entity to these
+terms. References to "you" or "Licensee" shall refer to that entity.
+
+PART I: LICENSE GRANT AND OWNERSHIP
+
+Ownership and Intellectual Property (IP)
+
+1.1. Retention of Ownership. The Software, including all copyrights, patents,
+trade secrets, algorithms, documentation, and all other Intellectual Property
+Rights, is and shall remain the exclusive property of the Licensor. This
+license grants you only the limited rights of use set forth herein, and does
+not convey any right, title, or interest in or to the Software.
+
+1.2. Proprietary Notice. The Licensee shall not remove, alter, or obscure any
+proprietary notices, labels, or marks from the Software.
+
+License Grant
+
+2.1. Limited License. Subject to the terms and conditions of this EULA, the 
+Licensor grants the Licensee a limited, non-exclusive, non-sublicensable, 
+and non-transferable license to install and use a reasonable number of copies 
+of the Software solely for the Licensee's internal business purposes, consistent
+with the accompanying documentation.
+
+PART II: USE RESTRICTIONS AND PROHIBITIONS
+
+General Prohibitions on Transfer and Commercial Sharing
+
+3.1. Prohibition on Resale and Transfer. The Licensee shall not:
+
+Rent, lease, loan, sell, assign, sub-license, distribute, or otherwise
+transfer the Software, any license key, or any of its rights under this
+Agreement to any third party.
+
+Offer the Software as part of a bundle, or in connection with any service
+that competes with the Licensor’s commercial offerings.
+
+3.2. Prohibition on Service Bureau Use. The Licensee is expressly prohibited
+from using the Software for the purposes of providing a service bureau,
+commercial hosting, time-sharing, or other similar commercial services to
+third parties.
+
+Code Modification and Reverse Engineering
+
+4.1. The Licensee is permitted to modify the software only for the sole purpose
+of adapting it for internal business use and only provided that such
+modifications are not distributed or transferred to any third party.
+
+4.2. Anti-Reverse Engineering. The Licensee shall not decompile, reverse
+engineer, disassemble, or otherwise attempt to derive the source code of the
+proprietary components of the Software. This restriction shall apply except and
+only to the extent that such activity is expressly permitted by mandatory
+statutory law, such as the rights granted to achieve interoperability or to
+correct errors under applicable EU law.
+
+4.3. The Licensee acknowledges and agrees that the Licensor shall own all
+rights, title, and interest in and to any and all derivative works (or
+modifications) of the Software, and the Licensee hereby assigns all such rights
+to the Licensor.
+
+PART III: OPEN-SOURCE (FOSS) COMPLIANCE ADDENDUM
+
+Open-Source Component Acknowledgment
+
+5.1. FOSS Components. The Software is an R package that requires and may bundle
+certain Free and Open-Source Software (FOSS) components, including the R
+environment itself, which are governed by their own licenses, including strong
+copyleft licenses like the GNU General Public License (GPL). The license terms
+for these FOSS Components are provided in Section 6 below.
+
+5.2. Governing Terms. Your use of these FOSS components is governed by the terms
+of this EULA as well as the specific FOSS licenses, which may grant you
+additional rights or impose additional obligations. In the event of a conflict
+between this EULA and the specific FOSS license terms, the FOSS license terms
+shall apply with respect to that FOSS component only.
+
+Required Disclosures and GPL Source Offer
+
+6.1. Attribution and Disclaimers. The following FOSS components are utilized by
+the Software, and the Licensee must adhere to their respective license terms.
+The Licensor is not responsible for the FOSS components and makes no
+representations or warranties with respect to them; all FOSS components are
+provided "AS IS".
+
+Component List (Name | License | Category | Notes):
+R Base System | GPL-2 or later | Copyleft | Core R environment dependency
+shiny (>= 1.9.1) | GPLv3 | Copyleft | Used for interactive applications
+gt (>= 1.0.0) | MIT | Permissive | Used for tables and reports
+ggplot2 (>= 3.4.2) | MIT License | Permissive | Used for visualization
+dplyr (>= 1.0.0) | MIT License | Permissive | Used for data manipulation
+reticulate (>= 1.30) | Apache License 2.0 | Permissive | Python integration
+Robyn (>= 3.12.1) | MIT + file LICENSE | Permissive | MMM component
+Other Listed Dependencies (incl. ellmer, gtExtras, GWalkR, hover,
+httr, jsonlite, lares, markdown, officer, patchwork, querychat,
+ragnar, rmarkdown, shinydashboard, shinyjs, shinyWidgets, tidyr,
+zip) | Varies (FOSS) | Varies | Full license texts available upon request.
+
+6.2. GPL Source Code Offer. In compliance with the GNU General Public License
+(GPL) governing components like R and shiny, the Licensor provides a written 
+offer, valid for at least three (3) years from the date of distribution, to give 
+any third party a complete machine-readable copy of the Corresponding Source 
+Code for the GPL-licensed components, for a charge no more than the cost of 
+physically performing the distribution (e.g., cost of media and shipping).
+
+PART IV: WARRANTY AND LIABILITY
+
+7. Warranty Disclaimer
+
+The Software is provided to the Licensee "AS IS," without warranty of any kind.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR DISCLAIMS ALL
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NONINFRINGEMENT.
+
+8. Limitation of Liability
+
+In no event shall the Licensor be liable to the Licensee or any third party for
+any incidental, consequential, punitive, or indirect damages (including, without
+limitation, damages for loss of profits, business interruption, or loss of data)
+arising out of the use or inability to use the Software, even if the Licensor
+has been advised of the possibility of such damages. THE LICENSOR'S TOTAL
+CUMULATIVE LIABILITY UNDER THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT
+ACTUALLY PAID BY THE LICENSEE FOR THE LICENSE TO THE SOFTWARE.

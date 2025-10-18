@@ -1,0 +1,50 @@
+Package: Rosa
+Title: MMM Interface powered by Robyn
+Version: 1.0.2
+Authors@R:
+  person("Bernardo", "Lares", , "laresbernardo@gmail.com", c("aut", "cre"))
+Maintainer: Bernardo Lares <laresbernardo@gmail.com>
+Description: Powerful Marketing Mix Models (MMM) interface powered by Robyn. Seamlessly manage end-to-end projects, regardless of your coding expertise, enabling in-depth analysis, addressing crucial business queries on attribution, incrementality, and budget optimization. Rosa's dynamic interface harmonizes technical intricacies with user-friendly functionality, fostering collaboration and empowering users to navigate MMM complexities confidently. This innovative solution propels advertisers towards data-driven decision-making, providing invaluable insights into market dynamics and contributing to strategic decision-making worldwide.
+License: file LICENCE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: R (>= 4.0.0)
+Imports:
+    dplyr (>= 1.0.0),
+    ellmer (>= 0.3.0),
+    ggplot2 (>= 3.4.2),
+    gt (>= 1.0.0),
+    gtExtras (>= 0.6.0),
+    GWalkR (>= 0.2.0),
+    hover (>= 0.1.1),
+    httr (>= 1.4.6),
+    jsonlite (>= 1.8.7),
+    lares (>= 5.3.1),
+    markdown (>= 1.7),
+    officer (>= 0.6.10),
+    patchwork (>= 1.3.0),
+    querychat (>= 0.0.0.9000),
+    ragnar (>= 0.2.1),
+    reticulate (>= 1.30),
+    rmarkdown (>= 2.20),
+    Robyn (>= 3.12.1),
+    shiny (>= 1.9.1),
+    shinydashboard (>= 0.7.2),
+    shinyjs (>= 2.1.0),
+    shinyWidgets (>= 0.7.6),
+    tidyr (>= 1.0.0),
+    zip (>= 2.3.0)
+Recommended:
+  AzureAuth (>= 1.3.3),
+  AzureStor (>= 3.7.0),
+  AzureTableStor (>= 1.0.0)
+Remotes:
+  github::posit-dev/querychat/pkg-r@ba8dda8
+Config/reticulate:
+  list(
+    packages = list(
+      list(package = "nevergrad", pip = TRUE)
+    )
+  )

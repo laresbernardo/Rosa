@@ -1,0 +1,25 @@
+DEV BACKLOG
+
+Fix:
+- exposure metrics is not working properly - getting mixed with paid: remove or fix
+- import exposure metrics and units of conversions from JSON correctly
+- import the units of conversions (when dep_var_type == "conversions") correctly (implemented - not working)
+- updating the dynamic reporting window shouldn't render the OP twice (happens w/models w/diff dates)
+
+Feat:
+- viz option for the OP's time-series decomp to be shown in 100% stacked format
+- add how many observations are being considered in "window" input's title: "Modeling Window* (n rows):"
+- warn user when there are periods with zero in the dep_var when running iterations
+- check exposure metrics when spend > 0, exposure should be > 0 for same time period
+- include effectiveness slide (and one-pager?) to answer how many units/revenue returns per activity (requires exposure metrics)
+- add kill button that shows up when Run Rosa is working
+- first period to consider should be the first non-zero dep var value by default (mixed with other rule)
+- random variable to evaluate overfit / model selection criteria (study)
+
+Evaluate:
+- ROAS vs mROAS plot inspired by Meridian
+- ROAS rank evolution plot to study evolution
+- chat with budget allocator using the AI Assistant
+- cross-MMM budget allocator (robyn_crossmmm() developed in lares already)
+- add a date range filter for criteria on model selection step
+- evaluate refresh OR run model as new model + set model ranking to 50% DECOMP and 50% baseline

@@ -1,0 +1,8 @@
+devtools::load_all()
+library("AzureAuth")
+library("AzureStor")
+library("AzureTableStor")
+library("querychat")
+library("ellmer")
+library("httr")
+shinyApp(ui, server)

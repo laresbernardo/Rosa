@@ -1,0 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+Rosa.Rproj
+Robyn_*
+RosaModel*
+lares_cache*
+Dashboard
+inst/Dashboards/Current_Project.RDS
+.DS_Store
+rsconnect/*
+app.R
+.Rapp.history
+.nfs00*
+cache*
