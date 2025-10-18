@@ -284,16 +284,16 @@ Business engagement is a key step for a continuous foundation for the future. Le
 
 **Champion**: Advocate for MMM adoption and success by motivating the team, pushing for deliverables, and addressing any obstacles that may hinder progress. You must be seen as a methodology expert given you will support implementation.
 
-## Recommended Training Sessions
+## Recommended Sessions
 
-Recommended content and tasks per training session:
+Recommended training content and tasks per session:
 
 | Training Sessions | Content covered | Specific Asks after Sessions |
 | :---| :---| :---|
 | **\#0: Intro & WoW** | Quick MMM intro, Stakeholders, Expectations, Timeline, Key dates, Sessions, Success. | Align expectations and connect with your brand/market stakeholders. |
-| **\#1: MMM Concepts & Rosa Introductions** | Incrementality, Attribution. What is Rosa? Why have we built Rosa? What does Rosa cover during the project? MMM equation. Quote. | **Set up meeting with Business:** - What do you want MMM to answer? - What variables do you think impact your sales? - Answer brand-specific hypotheses template? |
+| **\#1: MMM Concepts & Rosa Introductions** | Incrementality, Attribution. What is Rosa? Why have we built Rosa? What does Rosa cover during the project? MMM equation. Quote. | Set up meeting with Business: What do you want MMM to answer? What variables do you think impact your sales? Answer brand-specific hypotheses template? |
 | **\#2: Data preparation** | Minimum data requirements, variables and variable types, best practices, pitfalls, tips, and recommendations. | Think of variables to add for the brainstorming session. Collect variables data. Clean and build data set for session \#3. |
-| **Brainstorming and data variable sharing between markets for the same brand** | | |
+| **Brainstorming and data variable sharing between markets or brands if running in parallel** | | |
 | **\#3: Model configuration** | Hands-on session with Rosa. Upload data, analysis, map your variables, understand parameters and hyperparameters settings and consequences. | Perform MMM with chosen dataset. Change dataset variables if necessary. |
 | **\#4: Modelling Results** | Execute, select models, interpret one-pager results. | Select best models and discuss with Business best choice. Validate using initial hypotheses template. |
 | **\#5: Budget Allocator** | Based on selected models, understand how to set up several real-life scenarios to answer budget optimization and re-allocation. | Build scenarios for budget allocator. Share with business. Get actionable insights from BUH. |
@@ -324,6 +324,8 @@ To be able to answer our main business questions, we must first define them and 
 
 Answering the hypotheses questions should be a prerequisite to building every MMM. It is essential for business to answer to the best of their knowledge and share with the team.
 
+> Read more hypotheses template: [Stop Building MMMs Without Business-Backed Hypotheses](https://medium.com/@laresbernardo/stop-building-mmms-without-business-backed-hypotheses-0e8a9fa9a375).
+
 **IMPORTANT: Double check and agree with your local teams.**
 
 ### Data Hypotheses
@@ -340,6 +342,7 @@ How should my data look like to answer my business questions? Based on business 
 | Are there any peaks and valleys in your sales? Are they expected? | Validate data. |
 | What data sources will you be using (i.e. local, global, etc.)? | Identify data sources. |
 | What do you expect to change in the environment and promotional efforts during the following months? | Map potential refreshing. |
+| When do promotional budgeting decisions happen? | Sets the project timeline and refresh frequency |
 
 ### Modeling Hypotheses
 
@@ -351,6 +354,7 @@ How should my model look like for me to trust it? Based on business knowledge an
 | Which channels have the shortest and longest time to take effect? | Helps with model selection and validation. |
 | Which channels do you think are more and less saturated? | Helps with model selection and validation. |
 | What channels with lower spend do you expect to have high impact? | Helps with model selection and validation. |
+| Do you have results from other measurement experiments? | Calibrate and validate the MMM with ground-truth results from incremental tests. |
 | Any learnings from previous MMM that may be transferred? | Helps with model selection and validation. |
 
 ### Hypotheses to help Business-supported Decisions

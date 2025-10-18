@@ -1,6 +1,6 @@
 Package: Rosa
 Title: MMM Interface powered by Robyn
-Version: 1.0.2
+Version: 1.0.2.9000
 Authors@R:
   person("Bernardo", "Lares", , "laresbernardo@gmail.com", c("aut", "cre"))
 Maintainer: Bernardo Lares <laresbernardo@gmail.com>
