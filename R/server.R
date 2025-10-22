@@ -580,7 +580,8 @@ server <- function(input, output, session) {
             querychat_data_source(df, tbl_name = "df"),
             client = ellmer::chat_openai(
               model = "gpt-4.1",
-              api_key = Sys.getenv("OPENAI_API")),
+              api_key = Sys.getenv("OPENAI_API")
+            ),
             data_description = data_description,
             greeting = "Ask anything...",
             extra_instructions = "
@@ -622,7 +623,7 @@ server <- function(input, output, session) {
               paste("Dataset updated:", rv$querychat$title()),
               duration = 5, type = "message"
             )
-            message(paste("Dataset updated:", rv$querychat$title())) 
+            message(paste("Dataset updated:", rv$querychat$title()))
           }
           rv$dataset <- new_df
           rv <- process_data(rv$dataset, rv, input, session, query_chat = TRUE)
