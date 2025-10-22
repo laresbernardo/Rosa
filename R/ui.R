@@ -23,16 +23,14 @@ dat <- function() {
     fluidRow(
       column(12, shiny::wellPanel(
         align = "center",
-        radioButtons("exec_type", "What type of execution do you want to carry out?",
-          list(
-            "Build models" = 1,
-            "Recreate single model" = 3,
-            "Refresh model (new data)" = 2,
-            "Compare multiple models" = 4
-          ),
-          selected = 1, inline = TRUE
+        shinyWidgets::radioGroupButtons(
+          inputId = "exec_type",
+          label = "What type of execution do you want to carry out?",
+          choices = c("Build models" = 1, "Recreate single model" = 3, "Refresh model (new data)" = 2, "Compare multiple models" = 4),
+          selected = 1,
+          justified = TRUE,
+          checkIcon = list(yes = icon("ok", lib = "glyphicon"))
         ),
-        hr(),
         uiOutput("exec_type_txt")
       ))
     ),
